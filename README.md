@@ -20,6 +20,6 @@ After loading up the project onto your browser, you most likely won't have the o
 
 Traversal can be done via - "console.log(await obj["input index"].array())" only do this after loading up the react project on your browser, and then use inspect element and check the output of the index via the console. 
 
-TIPS: Classes are whole numbers, boxes are already processed values, and scores is a confidence metric that top value is the highest and bottom value being the lowest.
+TIPS: Classes are whole numbers, boxes are already processed values, and scores is a confidence metric that top value is the largest and bottom value being the smallest.
 
 
