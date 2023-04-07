@@ -1,10 +1,12 @@
 ## Web Application for ASL Project
-This project is a web application that integrates a machine learning model trained on the American Sign Language (ASL) dataset. The model is saved in JSON format and can be accessed through the web application as long as the server is active.
+This project is a web application that integrates a machine learning model trained on the American Sign Language (ASL) dataset. The model is saved in JSON format and can be accessed through the web application as long as the server is active, this is for my A Level Computer Science project.
 
 # Acknowledged changes
 Instead of using IBM Cloud, this project uses Google Cloud to create a bucket and link it with the given CORS configurations to enable "GET" requests to the web application and allow for object detection.
 
 Another change within this repository is that the corsconfig.json has been modified so it works for Google Cloud.
+
+This repository has the 8 ASL symbols within the labelmap, therefore those won't need changing unless you are using another model.
 
 ## Getting Started Prerequisites
 - Visual Studio Code
