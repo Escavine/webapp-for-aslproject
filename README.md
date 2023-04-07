@@ -27,7 +27,9 @@ STEP 4: Link the code editor terminal with the Google SDK with this command, whi
 
 ```gcloud auth login ```
 
-STEP 5: Set the directory to the repository in the terminal and run the command gsutil cors set corsconfig.json gs://[BUCKET-NAME]. This command sets the CORS configurations for the specified bucket within the JSON file.
+STEP 5: Set the directory to the repository in the terminal and run the command below. This command sets the CORS configurations for the specified bucket within the JSON file.
+
+```gsutil cors set corsconfig.json gs://[BUCKET-NAME]```
 
 
 ## Running the Web-App
