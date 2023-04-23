@@ -18,6 +18,11 @@ This repository has the 8 ASL symbols within the labelmap, therefore those won't
 - Create a bucket on Google Cloud.
 
 ## Tutorial
+
+STEP 1: Download Node.JS and download dependencies on the terminal with the comamnd...
+
+```npm install ```
+
 STEP 1: Create a bucket within Google Cloud
 
 STEP 2: After creation of bucket, go to the app.js file and get the public link to the JSON model within the bucket and paste that into the tf.loadGraphModel function.
