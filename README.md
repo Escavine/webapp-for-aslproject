@@ -23,29 +23,28 @@ STEP 1: Download Node.JS and download dependencies on the terminal with the coma
 
 ```npm install ```
 
-STEP 1: Create a bucket within Google Cloud
+STEP 2: Create a bucket within Google Cloud
 
-STEP 2: After creation of bucket, go to the app.js file and get the public link to the JSON model within the bucket and paste that into the tf.loadGraphModel function.
+STEP 3: After creation of bucket, go to the app.js file and get the public link to the JSON model within the bucket and paste that into the tf.loadGraphModel function.
 
-STEP 3: Download the Google CLI into your system and set a directory to it via PATH.
+STEP 4: Download the Google CLI into your system and set a directory to it via PATH.
 
-
-STEP 4: Link the code editor terminal with the Google SDK with this command, which will lead you to the login screen on your web browser to confirm your details and then once successful will lead you back to the terminal.
+STEP 5: Link the code editor terminal with the Google SDK with this command, which will lead you to the login screen on your web browser to confirm your details and then once successful will lead you back to the terminal.
 
 ```gcloud auth login ```
 
-STEP 5: Set the directory to the repository in the terminal and run the command below. This command sets the CORS configurations for the specified bucket within the JSON file.
+STEP 6: Set the directory to the repository in the terminal and run the command below. This command sets the CORS configurations for the specified bucket within the JSON file.
 
 ```gsutil cors set corsconfig.json gs://[BUCKET-NAME]```
 
 
 ## Running the Web-App
-STEP 6: Load up the project onto your browser by running the command
+STEP 7: Load up the project onto your browser by running the command
 
 ```npm start ```
 
 
-STEP 7: Traverse through the object indexes to find the correct values for the objects (boxes, classes, and scores). You can use the following command to check the output of the index via the console when you use inspect element after starting the react project. The reason as to why this is the case is that each of the object indexes are unique to most systems, the ones that worked for me are index 4 for boxes, index 7 for classes and index 1 for scores.
+STEP 8: Traverse through the object indexes to find the correct values for the objects (boxes, classes, and scores). You can use the following command to check the output of the index via the console when you use inspect element after starting the react project. The reason as to why this is the case is that each of the object indexes are unique to most systems, the ones that worked for me are index 4 for boxes, index 7 for classes and index 1 for scores.
 
 ``` console.log(await obj["input index"].array()) ```
 
